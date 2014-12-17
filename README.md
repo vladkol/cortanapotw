@@ -1,7 +1,7 @@
 Cortana's Pick of the Week 
 ===========
 
-Cortana's Pick of the Week app made for "This Week on Channel 9" (http://channel9.msdn.com/Shows/This+Week+On+Channel+9). 
+[Cortana's](http://www.windowsphone.com/en-us/how-to/wp8/cortana/meet-cortana) Pick of the Week app made for "This Week on Channel 9" (http://channel9.msdn.com/Shows/This+Week+On+Channel+9). 
 
 If you want to know how to integrate your app with Cortana, there is a great talk on that - ["Integrating Your App into the Windows Phone Speech Experience"](http://channel9.msdn.com/Events/Build/2014/2-530) by  Rob Chambers, F Avery Bishop and Monica South. 
 
