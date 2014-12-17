@@ -19,6 +19,9 @@ Then, with launching the app via Cortana (ask *"Cortana, what is you pick of the
 
 ![Working app](https://monosnap.com/image/XgXdLgMlZcaEy02PoJX6nFUpoG3HfR.png)
 
+
+Cortana works in Windows Phone 8.1 and later. The project requires Visual Studio 2013 or later. 
+
 In addition to the resources above, there is a very good sample of Cortana integration - [MSDN Voice Search](https://code.msdn.microsoft.com/windowsapps/MSDN-Voice-Search-for-95c16d92). It includes both basic stuff like we used, and some advanced techiques, e.g. PhraseTopic with natural language commands. 
 Good luck! 
 
