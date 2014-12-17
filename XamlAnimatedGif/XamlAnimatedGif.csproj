@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E2DAA243-B7A2-4FF1-A81B-BBC29F9FB81B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XamlAnimatedGif</RootNamespace>
+    <AssemblyName>XamlAnimatedGif</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile32</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINRT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;WINRT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .NET Framework is automatically included -->
+  </ItemGroup>
+  <ItemGroup>
+    <TargetPlatform Include="WindowsPhoneApp, Version=8.1" />
+    <TargetPlatform Include="Windows, Version=8.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnimationBehavior.cs" />
+    <Compile Include="AnimationErrorEventArgs.cs" />
+    <Compile Include="Animator.cs" />
+    <Compile Include="Decoding\GifApplicationExtension.cs" />
+    <Compile Include="Decoding\GifBlock.cs" />
+    <Compile Include="Decoding\GifBlockKind.cs" />
+    <Compile Include="Decoding\GifColor.cs" />
+    <Compile Include="Decoding\GifCommentExtension.cs" />
+    <Compile Include="Decoding\GifDataBlockStream.cs" />
+    <Compile Include="Decoding\GifDataStream.cs" />
+    <Compile Include="Decoding\GifDecoderException.cs" />
+    <Compile Include="Decoding\GifExtension.cs" />
+    <Compile Include="Decoding\GifFrame.cs" />
+    <Compile Include="Decoding\GifFrameDisposalMethod.cs" />
+    <Compile Include="Decoding\GifGraphicControlExtension.cs" />
+    <Compile Include="Decoding\GifHeader.cs" />
+    <Compile Include="Decoding\GifHelpers.cs" />
+    <Compile Include="Decoding\GifImageData.cs" />
+    <Compile Include="Decoding\GifImageDescriptor.cs" />
+    <Compile Include="Decoding\GifLogicalScreenDescriptor.cs" />
+    <Compile Include="Decoding\GifPlainTextExtension.cs" />
+    <Compile Include="Decoding\GifTrailer.cs" />
+    <Compile Include="Decoding\IGifRect.cs" />
+    <Compile Include="Decompression\BitReader.cs" />
+    <Compile Include="Decompression\LzwDecompressStream.cs" />
+    <Compile Include="Extensions\BitArrayExtensions.cs" />
+    <Compile Include="Extensions\BooleanBoxes.cs" />
+    <Compile Include="Extensions\CollectionExtensions.cs" />
+    <Compile Include="Extensions\StreamExtensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

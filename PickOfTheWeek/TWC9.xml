@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.1">
+  <CommandSet xml:lang="en-US" Name="TWC9ENUS">
+    <CommandPrefix>Cortana</CommandPrefix>
+    <Example> What is your pick of the week? </Example>
+
+    <Command Name="PickOfTheWeek">
+      <Example>What is your pick of the week?</Example>
+      <ListenFor>What is your pick of the week</ListenFor>
+      <Feedback> Thank you for asking %USERNAME%! Here is my pick of the week.</Feedback>
+      <Navigate/>
+    </Command>
+	
+  </CommandSet>
+</VoiceCommands>
