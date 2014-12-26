@@ -15,7 +15,7 @@ This app reqires some configuration. By default it starts in the configuration m
 
 ![Configuration mode](https://monosnap.com/image/9QxhPHNKAvy4doNlBlSK9ELl7X9Bw6.png)
 
-Then, with launching the app via Cortana (ask *"Cortana, what is you pick of the week?"*) you will get something like on a picture below and Cortana talking. 
+Then, with launching the app via Cortana (ask *"Cortana, what is your pick of the week?"*) you will get something like on a picture below and Cortana talking. 
 
 ![Working app](https://monosnap.com/image/XgXdLgMlZcaEy02PoJX6nFUpoG3HfR.png)
 
