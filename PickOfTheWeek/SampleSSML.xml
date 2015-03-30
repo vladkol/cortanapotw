@@ -1,22 +1,20 @@
-﻿
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">
   <prosody rate="1.0">
-    I've got <emphasis level="strong">exciting news</emphasis>this week! 
+    I've got <emphasis level="strong">exciting news</emphasis>this week!
     <emphasis level="strong">Minecraft Pocket Edition</emphasis> has finally arrived at Windows Phone!
     The mobile version of Minecraft already has millions of fans on iOS and Android. And starting this week you can build your worlds on our mobile platform.
-    I am actually going to spend some time with this <emphasis level="strong">awesome game!</emphasis> 
+    I am actually going to spend some time with this <emphasis level="strong">awesome game!</emphasis>
   </prosody>
 </speak>
 
 <!--
-Header: Minecraft: Pocket Edition now on Windows Phone 
+Header: Minecraft: Pocket Edition now on Windows Phone
 
-Image1: http://cdn.marketplaceimages.windowsphone.com/v8/images/30c28741-c45a-4672-9373-d895dd7cd7a4?imageType=ws_icon_large 
+Image 1: http://cdn.marketplaceimages.windowsphone.com/v8/images/30c28741-c45a-4672-9373-d895dd7cd7a4?imageType=ws_icon_large
 
-Image2: http://cdn.marketplaceimages.windowsphone.com/v8/images/3291e86e-d429-434b-a452-2d5bae05aac4?imageType=ws_screenshot_large&rotation=90  
+Image 2: http://cdn.marketplaceimages.windowsphone.com/v8/images/3291e86e-d429-434b-a452-2d5bae05aac4?imageType=ws_screenshot_large&rotation=90
 
-Title: Minecraft - Pocket Edition 
+Title: Minecraft - Pocket Edition
 
-URL: http://www.windowsphone.com/en-us/store/app/minecraft-pocket-edition/1a625b44-b542-401b-bdff-52b4357c0573  
-
+URL / Sub title: http://www.windowsphone.com/en-us/store/app/minecraft-pocket-edition/1a625b44-b542-401b-bdff-52b4357c0573
 -->

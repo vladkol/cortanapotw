@@ -9,7 +9,7 @@
     mc:Ignorable="d" 
     Background="Black"
     x:Name="_MainPage">
-    
+
     <Page.Resources>
         <local:CortanaModeToUriConverter x:Key="uriConverter" />
     </Page.Resources>
@@ -33,7 +33,7 @@
             </StackPanel>
             <TextBlock x:Name="title" TextWrapping="WrapWholeWords" HorizontalAlignment="Left" FontSize="18" FontFamily="Segoe UI Semilight" Margin="0,12,0,0" Foreground="#FF0071C3" FontWeight="Bold">
             </TextBlock>
-            <TextBlock x:Name="url" TextWrapping="WrapWholeWords" HorizontalAlignment="Left" FontSize="18" FontFamily="Segoe UI Semilight" Margin="0,6,0,0" Foreground="#FF0071C3">
+            <TextBlock x:Name="url" TextWrapping="WrapWholeWords" HorizontalAlignment="Left" FontSize="18" FontFamily="Segoe UI Semilight" Margin="0,6,0,0" Foreground="#FFEEEEFF">
             </TextBlock>
         </StackPanel>
         <Image x:Name="imageSplash" Source="Assets/SplashScreen.png" />
@@ -44,20 +44,20 @@
                         <StackPanel Orientation="Horizontal">
                             <Button x:Name="buttonSave" Click="buttonSave_Click">Save</Button>
                             <Button x:Name="buttonSaveAndClose" Click="buttonSaveAndClose_Click" Margin="48, 0, 0, 0">Save and Close</Button>
-                        </StackPanel>                    
+                        </StackPanel>
                         <TextBlock FontSize="24">Username</TextBlock>
                         <TextBox x:Name="textUser" />
                         <TextBlock FontSize="24">SSML</TextBlock>
                         <TextBox x:Name="textSSML" Height="240" AcceptsReturn="True"/>
                         <TextBlock FontSize="24">Header</TextBlock>
                         <TextBox x:Name="textHeader" Height="60"/>
-                        <TextBlock FontSize="24">First Picture Url</TextBlock>
+                        <TextBlock FontSize="24">First Picture URL</TextBlock>
                         <TextBox x:Name="textPic1" />
-                        <TextBlock FontSize="24">Second Picture Url</TextBlock>
+                        <TextBlock FontSize="24">Second Picture URL</TextBlock>
                         <TextBox x:Name="textPic2"/>
                         <TextBlock FontSize="24">Title</TextBlock>
                         <TextBox x:Name="textTitle" />
-                        <TextBlock FontSize="24">URL</TextBlock>
+                        <TextBlock FontSize="24">URL / Subtitle</TextBlock>
                         <TextBox x:Name="textURL" />
                     </StackPanel>
                 </Grid>
