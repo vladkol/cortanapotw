@@ -139,7 +139,7 @@
     <Content Include="Assets\StoreLogo.scale-240.png" />
     <Content Include="Assets\WideLogo.scale-240.png" />
     <Content Include="SampleSSML.xml" />
-    <Content Include="TWC9.xml" />
+    <Content Include="CortanaLauncher.xml" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

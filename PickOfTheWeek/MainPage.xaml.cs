@@ -39,7 +39,7 @@ namespace PickOfTheWeek
             }
         }
 
- 
+
         public CortanaMode CortanaCurrentMode
         {
             get { return _CortanaCurrentMode; }
@@ -139,7 +139,7 @@ namespace PickOfTheWeek
             }
         }
 
-#region Event Handlers
+        #region Event Handlers
         private void mediaAudio_MediaEnded(object sender, RoutedEventArgs e)
         {
             Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
@@ -188,11 +188,11 @@ namespace PickOfTheWeek
             await new Windows.UI.Popups.MessageDialog("Saved!", "Configuration").ShowAsync();
             Application.Current.Exit();
         }
-#endregion
+        #endregion
 
         private async Task InitializeCortana()
         {
-            Uri uri = new Uri("ms-appx:///TWC9.xml", UriKind.Absolute);
+            Uri uri = new Uri("ms-appx:///CortanaLauncher.xml", UriKind.Absolute);
 
             StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(uri);
             string xmlVCD = await FileIO.ReadTextAsync(file);
@@ -285,12 +285,12 @@ namespace PickOfTheWeek
         private void LoadConfig()
         {
             IPropertySet settings = ApplicationData.Current.LocalSettings.Values;
-            
+
             if (settings.ContainsKey("Username"))
                 textUser.Text = settings["Username"].ToString();
             else
                 textUser.Text = "my friend";
-            
+
             if (settings.ContainsKey("Header"))
                 textHeader.Text = settings["Header"].ToString();
             else
